@@ -1,10 +1,9 @@
-package com.foro.api.modelo;
+package com.foro.api.domain.modelo;
 
 
-import com.foro.api.topico.DatosActualizarTopico;
-import com.foro.api.topico.DatosRegistroTopico;
-import com.foro.api.topico.DatosUsuario;
-import com.foro.api.topico.StatusTopico;
+import com.foro.api.domain.topico.DatosActualizarTopico;
+import com.foro.api.domain.topico.DatosRegistroTopico;
+import com.foro.api.domain.topico.StatusTopico;
 
 
 import jakarta.persistence.*;

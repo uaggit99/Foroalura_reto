@@ -1,11 +1,9 @@
-package com.foro.api.topico;
+package com.foro.api.domain.topico;
 
 
-import com.foro.api.modelo.Topico;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 
 public record DatosRegistroTopico(@NotBlank String titulo,
                                   @NotBlank

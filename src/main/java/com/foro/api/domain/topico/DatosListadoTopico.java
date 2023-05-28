@@ -1,8 +1,8 @@
-package com.foro.api.topico;
+package com.foro.api.domain.topico;
 
-import com.foro.api.modelo.Curso;
-import com.foro.api.modelo.Topico;
-import com.foro.api.modelo.Usuario;
+import com.foro.api.domain.modelo.Curso;
+import com.foro.api.domain.modelo.Topico;
+import com.foro.api.domain.modelo.Usuario;
 
 
 public record DatosListadoTopico(Long id, String titulo, String mensaje, String fecha_creacion, String Statuss,

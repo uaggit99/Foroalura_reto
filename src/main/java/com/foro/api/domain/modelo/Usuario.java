@@ -1,6 +1,6 @@
-package com.foro.api.modelo;
+package com.foro.api.domain.modelo;
 
-import com.foro.api.topico.DatosUsuario;
+import com.foro.api.domain.topico.DatosUsuario;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

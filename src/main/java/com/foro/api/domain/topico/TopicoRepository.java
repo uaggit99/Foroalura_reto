@@ -1,11 +1,9 @@
-package com.foro.api.topico;
+package com.foro.api.domain.topico;
 
-import com.foro.api.modelo.Topico;
+import com.foro.api.domain.modelo.Topico;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.Optional;
 
 public interface TopicoRepository extends JpaRepository<Topico, Long> {
     Page<Topico> findByActivoTrue(Pageable paginacion);
